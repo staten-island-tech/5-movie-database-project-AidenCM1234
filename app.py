@@ -7,4 +7,5 @@ for index, item in enumerate(data):
     print (f"{index}:{item["title"]}")
 
 for index, item in enumerate(data):
-    print (f"{index}:{item["year"]}")
+    if {index}:{item["year"]} > input:
+    
