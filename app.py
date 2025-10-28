@@ -6,7 +6,11 @@ data = json.load(movies)
 for index, item in enumerate(data):
     print (f"{index}:{item["title"]}")
 
-x= int.input("Year After")
-#for index, item in enumerate(data):
-    #if {index}:{item["year"]} > input:
+x= int(input("Year After: "))
+#print(x)
+
+for index, item in enumerate(data):
+    if {index}:{item["year"]} > x:
+        print (f"{index}:{item["title"]}")
+        
     
