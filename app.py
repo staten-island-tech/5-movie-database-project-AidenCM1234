@@ -34,7 +34,13 @@ for index, item in enumerate(data):
 """
 
 #File 5
-a= int(input("Movie name: "))
+a= input("Movie name: ")
 for index, item in enumerate(data):
-    if  item["year"] == a :
+    if  item["title"] == a :
+        print (f"{index}:{item["title"]}")
+
+#File 6
+b= input("Genres: ")
+for index, item in enumerate(data):
+    if  item["genres"] == b :
         print (f"{index}:{item["title"]}")
