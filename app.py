@@ -42,8 +42,7 @@ for index, item in enumerate(data):
 #File 6
 b= input("Genres: ")
 for index, item in enumerate(data):
-        for item in enumerate(data):
-            if  ["genres"] == b :
-                print (f"{index}:{item["title"]}")
-            else:
-                 print("you dumb")
+    #print (f"{index}:{item["genres"]}")
+    if  b in item["genres"]:
+        print (f"{index}:{item["title"]}:{item["genres"]}")
+            
