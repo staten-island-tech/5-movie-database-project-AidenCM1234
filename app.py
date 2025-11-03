@@ -40,9 +40,9 @@ for index, item in enumerate(data):
         print (f"{index}:{item["title"]}")
 """
 #File 6
-b= input("Genres: ")
+g= input("Genres: ")
 for index, item in enumerate(data):
     #print (f"{index}:{item["genres"]}")
-    if  b in item["genres"]:
+    if  g in item["genres"]:
         print (f"{index}:{item["title"]}:{item["genres"]}")
             
