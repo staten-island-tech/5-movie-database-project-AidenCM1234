@@ -31,18 +31,16 @@ z= int(input("Year made in: "))
 for index, item in enumerate(data):
     if  item["year"] == z :
         print (f"{index}:{item["title"]}, {item["year"]}")
-
-
+        """
 #File 5
 a= input("Movie name: ")
 for index, item in enumerate(data):
-    if  item["title"] == a :
+    if  a in item["title"].lower():
         print (f"{index}:{item["title"]}")
-"""
+        
+
 #File 6
 g= input("Genres: ")
 for index, item in enumerate(data):
-    #print (f"{index}:{item["genres"]}")
-    if  g in item["genres"]:
+    if  g in item["title"].lower():
         print (f"{index}:{item["title"]}:{item["genres"]}")
-            
